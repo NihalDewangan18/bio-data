@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
             val name = editTextName.text.toString()
             val password = editTextPassword.text.toString()
 
-            if (name == "gitesh" && password == "gitesh") {
+            if (name == "nihal" && password == "holdmybeer") {
                 val intent = Intent(this, WelcomeActivity::class.java)
                 startActivity(intent)
                 finish()
